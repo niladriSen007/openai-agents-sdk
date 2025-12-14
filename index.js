@@ -12,11 +12,7 @@ const historyFunFact = tool({
   },
 });
 
-/* const customClient = new OpenAI({
-   baseURL: 'https://api.openai.com/v1',
-   apiKey: "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" 
-  });
-setDefaultOpenAIClient(customClient); */
+
 
 const agent = new Agent({
   name: 'History Tutor',
